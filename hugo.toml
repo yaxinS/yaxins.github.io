@@ -32,7 +32,6 @@ imageTitle = "This is me"
 imageWidth = 120
 imageHeight = 120
 
-
 [[params.socialIcons]]
 name = "email"
 url = "mailto:sunyaxin20@gmail.com"
