@@ -1,0 +1,50 @@
+baseURL = "https://yaxins.github.io/"
+title = "Yaxin's Space"
+languageCode = "en-us"
+theme = "PaperMod"
+
+[menu]
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 2
+[[menu.main]]
+identifier = "posts"
+name = "Blog"
+url = "/posts/"
+weight = 3
+
+[params]
+defaultTheme = "auto"
+
+[params.profileMode]
+enabled = true
+title = "Yaxin Sun"
+subtitle = "Welcome to my space! 🥳"
+imageUrl = "/img/profile2.jpg"
+imageTitle = "This is me"
+imageWidth = 120
+imageHeight = 120
+
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:sunyaxin20@gmail.com"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/yaxinS"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/yaxin-sun-b676aa29b/"
+
+[[params.profileMode.buttons]]
+name = "Download my CV"
+url = "cv_yaxin.pdf"
