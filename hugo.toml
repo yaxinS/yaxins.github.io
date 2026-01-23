@@ -33,10 +33,6 @@ imageWidth = 120
 imageHeight = 120
 
 [[params.socialIcons]]
-name = "email"
-url = "mailto:sunyaxin20@gmail.com"
-
-[[params.socialIcons]]
 name = "github"
 url = "https://github.com/yaxinS"
 
@@ -47,3 +43,8 @@ url = "https://www.linkedin.com/in/yaxin-sun-b676aa29b/"
 [[params.profileMode.buttons]]
 name = "Download my CV"
 url = "cv_en_yaxin.pdf"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
