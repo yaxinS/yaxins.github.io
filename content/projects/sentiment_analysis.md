@@ -1,5 +1,8 @@
 +++
-date = '2026-01-04T15:00:57+01:00'
+date = '2026-01-27'
 draft = false
-title = 'Sentiment_analysis'
+title = 'Sentiment Analysis of a Social and Political Science–Related Corpus'
+
+[cover]
+image = "img/sentiment_analysisi.png"
 +++
